@@ -1,74 +1,240 @@
-    body {
-        margin: 0;
-    }
-    
-    @media(max-width: 1300px) {
-        .forms {
-            grid-template-columns: 77% 23%;
-            form {
-                input {
-                    width: 144px;
-                    height: 40px;
+        body {
+            margin: 0;
+        }
+        
+        @media(max-width: 1300px) {
+            .forms {
+                grid-template-columns: 77% 23%;
+                form {
+                    input {
+                        width: 144px;
+                        height: 40px;
+                    }
                 }
             }
-        }
-        .buttons {
-            justify-self: start;
-            button {
-                font-size: 9px;
-                width: 110px;
-                margin-left: 8px;
-                align-self: stretch;
-            }
-        }
-    }
-    
-    @media (max-width: 1000px) {
-        .forms {
-            grid-template-columns: 77% 23%;
-            form {
-                input {
+            .buttons {
+                justify-self: start;
+                button {
+                    font-size: 9px;
                     width: 110px;
-                    height: 40px;
+                    margin-left: 8px;
+                    align-self: stretch;
                 }
             }
         }
-        .buttons {
-            justify-self: start;
-            button {
-                font-size: 9px;
-                width: 92px;
-                margin-left: 8px;
-                align-self: stretch;
+        
+        @media (max-width: 1000px) {
+            .forms {
+                grid-template-columns: 77% 23%;
+                form {
+                    input {
+                        width: 110px;
+                        height: 40px;
+                    }
+                }
             }
-        }
-    }
-    
-    @media(max-width: 640px) {
-        .forms {
-            grid-template-columns: 100%;
-            padding-bottom: 50px;
-            form {
-                input {
-                    width: 90px;
-                    height: 35px;
-                    font-size: 12px;
+            .buttons {
+                justify-self: start;
+                button {
+                    font-size: 9px;
+                    width: 92px;
+                    margin-left: 8px;
+                    align-self: stretch;
                 }
             }
         }
-        .buttons {
-            justify-self: center;
-            grid-template-columns: 100%;
-            button {
-                font-size: 9px;
-                width: 160px;
-                margin-left: 8px;
-                height: 20px;
-                align-self: center;
+        
+        @media (max-width: 960px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 80px;
+                        height: 33px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            .container tr {
+                font-size: 10px;
+            }
+            thead th {
+                font-size: 12px;
             }
         }
-    }
-    
-    @media(max-width: 480px) {}
-    
-    @media (max-width: 320px) {}
+        
+        @media (max-width: 880px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 80px;
+                        height: 33px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            .container tr {
+                font-size: 10px;
+            }
+            thead th {
+                font-size: 12px;
+            }
+        }
+        
+        @media (max-width: 800px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 80px;
+                        height: 33px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            .container tr {
+                font-size: 10px;
+            }
+            thead th {
+                font-size: 12px;
+            }
+        }
+        
+        @media(max-width: 640px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 80px;
+                        height: 33px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            .container tr {
+                font-size: 10px;
+            }
+            thead th {
+                font-size: 12px;
+            }
+        }
+        
+        @media(max-width: 480px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 65px;
+                        height: 33px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            .container tr {
+                font-size: 8px;
+            }
+            thead th {
+                font-size: 6px;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            .forms {
+                grid-template-columns: 100%;
+                padding-bottom: 50px;
+                form {
+                    input {
+                        width: 44px;
+                        height: 30px;
+                        font-size: 7px;
+                    }
+                }
+            }
+            .buttons {
+                justify-self: center;
+                grid-template-columns: 100%;
+                button {
+                    font-size: 9px;
+                    width: 160px;
+                    margin-left: 8px;
+                    height: 20px;
+                    margin-bottom: 5px;
+                    align-self: center;
+                }
+            }
+            #users td {
+                font-size: 5px;
+            }
+            .container tr {
+                font-size: 8px;
+            }
+            thead th {
+                font-size: 8px;
+            }
+        }

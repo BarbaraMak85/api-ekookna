@@ -525,16 +525,16 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     padding-bottom: 50px;
   }
   .forms form input {
-    width: 90px;
-    height: 35px;
-    font-size: 12px;
+    width: 80px;
+    height: 33px;
+    font-size: 10px;
   }
   .buttons {
     justify-self: center;
@@ -546,9 +546,189 @@ body {
     width: 160px;
     margin-left: 8px;
     height: 20px;
+    margin-bottom: 5px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+  .container tr {
+    font-size: 10px;
+  }
+  thead th {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 880px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 80px;
+    height: 33px;
+    font-size: 10px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    margin-bottom: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .container tr {
+    font-size: 10px;
+  }
+  thead th {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 80px;
+    height: 33px;
+    font-size: 10px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    margin-bottom: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .container tr {
+    font-size: 10px;
+  }
+  thead th {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 80px;
+    height: 33px;
+    font-size: 10px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    margin-bottom: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .container tr {
+    font-size: 10px;
+  }
+  thead th {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 65px;
+    height: 33px;
+    font-size: 10px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    margin-bottom: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .container tr {
+    font-size: 8px;
+  }
+  thead th {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 44px;
+    height: 30px;
+    font-size: 7px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    margin-bottom: 5px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #users td {
+    font-size: 5px;
+  }
+  .container tr {
+    font-size: 8px;
+  }
+  thead th {
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=style.css.map */
