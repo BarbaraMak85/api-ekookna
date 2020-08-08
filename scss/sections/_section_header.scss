@@ -1,0 +1,62 @@
+ * {
+     margin: 0;
+ }
+ 
+ .section--header {
+     background-image: url("../images/camera-coffee-composition-1509428.jpg");
+     height: 900px;
+     width: 100%;
+     padding: 0;
+     margin: 0 auto;
+     background-size: cover;
+     background-position: center;
+     overflow: hidden;
+ }
+ 
+ .component--menu--list {
+     display: grid;
+     grid-template-columns: 65% 35%;
+     grid-template-rows: 1fr;
+     padding: 0;
+     cursor: pointer;
+     li {
+         justify-self: stretch;
+     }
+     ul div {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+     ul .image-menu {
+         display: grid;
+         grid-template-columns: 1fr;
+         padding: 0;
+     }
+     li a {
+         display: grid;
+     }
+ }
+ 
+ .component--menu .component--menu--list {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ 
+ .component--menu ul {
+     display: grid;
+     grid-template-columns: 60% 40%;
+ }
+ 
+ .component--menu ul li {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 8px solid transparent;
+ }
+ 
+ .component--menu ul li:hover {
+     border-bottom: 8px solid $color-menu;
+ }
+ 
+ .image-menu {
+     margin-left: 150px;
+ }

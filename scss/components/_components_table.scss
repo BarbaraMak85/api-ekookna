@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #4DC3FA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #A7A1AE;
+    background-color: #1F2739
+}
+
+.forms {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 80% 20%;
+    justify-items: center;
+    form {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-items: center;
+        input {
+            width: 170px;
+            height: 40px;
+            text-align: center;
+            margin-left: 5px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            color: #185875;
+        }
+    }
+}
+
+.container {
+    display: grid;
+    background-color: white;
+    tr {
+        display: grid;
+        grid-template-columns: 12% 12% 12% 12% 12% 12% 28%;
+        justify-items: center;
+    }
+}
+
+tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.buttons {
+    height: 78px;
+    button {
+        height: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        background-color: #FB667A;
+        color: #1F2739;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+}
+
+.header {
+    height: 70px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+thead {
+    border: 2px solid #2C3446;
+    th {
+        color: #FB667A;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+}
+
+#users {
+    font-family: 'Open Sans', sans-serif;
+    color: #4DC3FA;
+    tr {
+        height: 35px;
+        padding-top: 5px;
+    }
+}
+
+td button {
+    background-color: #FB667A;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+footer {
+    height: 60px;
+}

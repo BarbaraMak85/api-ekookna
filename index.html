@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <h1>Tabela użytkowników</h1>
+    <div class="forms">
+        <form>
+            <input name="user_name" type="text" placeholder="Podaj imię">
+            <input name="user_lastname" type="text" placeholder="Podaj nazwisko">
+            <input name="user_postal_code" type="text" placeholder="Podaj kod podcztowy">
+            <input name="user_street" type="text" placeholder="Podaj ulice">
+            <input name="user_city" type="text" placeholder="Podaj miasto">
+            <input name="user_age" type="text" placeholder="Podaj wiek">
+
+        </form>
+        <div class="buttons">
+            <button id="button-add-user">Dodaj użytkownika</button>
+            <button style="display: none;" id="button-cancel-edit">Anuluj edycję</button>
+        </div>
+    </div>
+
+
+
+    <table class="container">
+        <thead>
+            <tr class="header">
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Kod pocztowy</th>
+                <th>Ulica</th>
+                <th>Miejscowość</th>
+                <th>Wiek</th>
+                <th>Opcje</th>
+            </tr>
+        </thead>
+        <tbody id="users">
+
+        </tbody>
+    </table>
+
+    <script src="js/script.js"></script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
