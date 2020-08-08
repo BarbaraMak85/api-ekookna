@@ -1,6 +1,7 @@
 const buttonAddUser = document.getElementById('button-add-user');
 buttonAddUser.addEventListener('click', addUser);
 
+
 function getUsersList() {
     fetch('http://test.eko.eu')
         .then(response => response.json())
