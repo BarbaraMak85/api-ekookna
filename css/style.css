@@ -363,13 +363,15 @@ body {
       grid-template-columns: 80% 20%;
   -ms-grid-column-align: center;
       justify-items: center;
+  margin-bottom: 10px;
 }
 
 .forms form {
-  margin-top: 20px;
-  margin-bottom: 20px;
   -ms-grid-column-align: center;
       justify-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .forms form input {
@@ -407,13 +409,14 @@ tr:nth-child(even) {
 }
 
 .buttons {
-  height: 78px;
+  display: -ms-grid;
+  display: grid;
+  justify-self: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 
 .buttons button {
-  height: 40px;
-  margin-bottom: 30px;
-  margin-top: 20px;
   border-radius: 5px;
   outline: none;
   border: none;
@@ -422,11 +425,12 @@ tr:nth-child(even) {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  width: 110px;
+  margin-left: 8px;
 }
 
 .header {
   height: 70px;
-  padding-top: 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -440,6 +444,9 @@ thead th {
   color: #FB667A;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 #users {
@@ -448,8 +455,13 @@ thead th {
 }
 
 #users tr {
-  height: 35px;
-  padding-top: 5px;
+  height: 50px;
+}
+
+#users td {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 td button {
@@ -458,9 +470,85 @@ td button {
   border-radius: 5px;
   outline: none;
   border: none;
+  height: 32px;
 }
 
 footer {
   height: 60px;
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 1300px) {
+  .forms {
+    -ms-grid-columns: 77% 23%;
+        grid-template-columns: 77% 23%;
+  }
+  .forms form input {
+    width: 144px;
+    height: 40px;
+  }
+  .buttons {
+    justify-self: start;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 110px;
+    margin-left: 8px;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+  }
+}
+
+@media (max-width: 1000px) {
+  .forms {
+    -ms-grid-columns: 77% 23%;
+        grid-template-columns: 77% 23%;
+  }
+  .forms form input {
+    width: 110px;
+    height: 40px;
+  }
+  .buttons {
+    justify-self: start;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 92px;
+    margin-left: 8px;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+  }
+}
+
+@media (max-width: 640px) {
+  .forms {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    padding-bottom: 50px;
+  }
+  .forms form input {
+    width: 90px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .buttons {
+    justify-self: center;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .buttons button {
+    font-size: 9px;
+    width: 160px;
+    margin-left: 8px;
+    height: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
