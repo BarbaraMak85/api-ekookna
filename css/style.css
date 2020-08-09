@@ -725,7 +725,7 @@ body {
     font-size: 9px;
     width: 160px;
     margin-left: 8px;
-    height: 20px;
+    height: 17px;
     margin-bottom: 5px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -739,7 +739,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -757,7 +757,7 @@ body {
   }
   .buttons button {
     font-size: 9px;
-    width: 160px;
+    width: 120px;
     margin-left: 8px;
     height: 20px;
     margin-bottom: 5px;
@@ -765,9 +765,18 @@ body {
         -ms-grid-row-align: center;
         align-self: center;
   }
+  .buttons td button {
+    background-color: #FB667A;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 17px;
+    margin-bottom: 2px;
+  }
 }
 
-@media (max-width: 400px) and (max-width: 320px) {
+@media (max-width: 420px) and (max-width: 360px) {
   .buttons .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -788,7 +797,7 @@ body {
   }
   .buttons .buttons button {
     font-size: 9px;
-    width: 160px;
+    width: 120px;
     margin-left: 8px;
     height: 20px;
     margin-bottom: 5px;
@@ -807,7 +816,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .buttons #users td {
     font-size: 5px;
   }
@@ -819,15 +828,15 @@ body {
   }
 }
 
-@media (max-width: 400px) and (max-width: 320px) {
+@media (max-width: 420px) and (max-width: 320px) {
   .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
     padding-bottom: 50px;
   }
   .forms form input {
-    width: 40px;
-    height: 25px;
+    width: 30px;
+    height: 20px;
     font-size: 5px;
   }
   .buttons {
@@ -837,7 +846,7 @@ body {
   }
   .buttons button {
     font-size: 9px;
-    width: 160px;
+    width: 120px;
     margin-left: 8px;
     height: 20px;
     margin-bottom: 5px;
@@ -853,6 +862,18 @@ body {
   }
   thead th {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 420px) {
+  td button {
+    background-color: #FB667A;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 17px;
+    margin-bottom: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
