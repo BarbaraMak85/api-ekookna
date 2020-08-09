@@ -739,7 +739,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -776,7 +776,7 @@ body {
   }
 }
 
-@media (max-width: 420px) and (max-width: 360px) {
+@media (max-width: 430px) and (max-width: 360px) {
   .buttons .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -816,7 +816,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .buttons #users td {
     font-size: 5px;
   }
@@ -828,7 +828,7 @@ body {
   }
 }
 
-@media (max-width: 420px) and (max-width: 320px) {
+@media (max-width: 430px) and (max-width: 320px) {
   .forms {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -865,7 +865,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   td button {
     background-color: #FB667A;
     font-family: 'Open Sans', sans-serif;
